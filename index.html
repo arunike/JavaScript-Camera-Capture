@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Camera</title>
+    </head>
+    <style>
+        .button {
+            display: inline-block;
+            padding: 10px 10px;
+            font-size: 24px;
+            cursor: pointer;
+            position: absolute;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #000000;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+    </style>
+    <body>
+        <div id="contentHolder">
+            <video id="video" autoplay style="background-color: #000"></video>
+            <canvas id="canvas" style="display: none;"></canvas>
+            <img id="img" src=""/>
+        </div>
+        <button class="button" id="btn_snap" onclick="takePhoto()">Capture</button>
+        <br>
+        <script src='cameraCapture.js'></script>
+    </body>
+</html>
