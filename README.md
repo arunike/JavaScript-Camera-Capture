@@ -1,4 +1,4 @@
-# JavaScript-Camera-Capture
+# JavaScript Camera Capture
 
-<p> Used JavaScript to achieve the function of taking a photo
+<p>A simple JavaScript Camera Capture System to showcase the function of using the device's camera to take a photo.
 </p>
